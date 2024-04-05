@@ -1,4 +1,4 @@
-## Used commands:
+## Used commands
 
 ### `npx create-react-app . --template typescript`
 Start a new Create React App project with TypeScript
@@ -14,6 +14,18 @@ Start a new Create React App project with TypeScript
 Install `antd` from npm.
 ANTD is a React UI library that constains a set of components and demos for building user interfaces. 
 For more information visit ANTD official website: https://ant.design/
+
+
+## Project Structure
+Functionality-Based Structure. Keep tests close to their related components or features
+
+src:
+- assets: images, icons
+- theme: CSS, styling-components
+- components: ui-components
+- containers: pages
+- hooks
+- utils
 
 
 # Available Scripts
